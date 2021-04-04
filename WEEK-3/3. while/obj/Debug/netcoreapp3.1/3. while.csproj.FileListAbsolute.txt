@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\WEEK-3\3. while\bin\Debug\netcoreapp3.1\3. while.exe
+C:\Users\hp\source\repos\WEEK-3\3. while\bin\Debug\netcoreapp3.1\3. while.deps.json
+C:\Users\hp\source\repos\WEEK-3\3. while\bin\Debug\netcoreapp3.1\3. while.runtimeconfig.json
+C:\Users\hp\source\repos\WEEK-3\3. while\bin\Debug\netcoreapp3.1\3. while.runtimeconfig.dev.json
+C:\Users\hp\source\repos\WEEK-3\3. while\bin\Debug\netcoreapp3.1\3. while.dll
+C:\Users\hp\source\repos\WEEK-3\3. while\bin\Debug\netcoreapp3.1\3. while.pdb
+C:\Users\hp\source\repos\WEEK-3\3. while\obj\Debug\netcoreapp3.1\3. while.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\WEEK-3\3. while\obj\Debug\netcoreapp3.1\3. while.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\WEEK-3\3. while\obj\Debug\netcoreapp3.1\3. while.AssemblyInfo.cs
+C:\Users\hp\source\repos\WEEK-3\3. while\obj\Debug\netcoreapp3.1\3. while.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\WEEK-3\3. while\obj\Debug\netcoreapp3.1\3. while.dll
+C:\Users\hp\source\repos\WEEK-3\3. while\obj\Debug\netcoreapp3.1\3. while.pdb
+C:\Users\hp\source\repos\WEEK-3\3. while\obj\Debug\netcoreapp3.1\3. while.genruntimeconfig.cache

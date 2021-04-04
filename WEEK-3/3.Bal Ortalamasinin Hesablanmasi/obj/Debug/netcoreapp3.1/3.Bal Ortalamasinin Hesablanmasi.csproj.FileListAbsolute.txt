@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\bin\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.exe
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\bin\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.deps.json
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\bin\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.runtimeconfig.json
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\bin\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.runtimeconfig.dev.json
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\bin\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.dll
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\bin\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.pdb
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\obj\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\obj\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\obj\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.AssemblyInfo.cs
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\obj\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\obj\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.dll
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\obj\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.pdb
+C:\Users\hp\source\repos\WEEK-3\3.Bal Ortalamasinin Hesablanmasi\obj\Debug\netcoreapp3.1\3.Bal Ortalamasinin Hesablanmasi.genruntimeconfig.cache
