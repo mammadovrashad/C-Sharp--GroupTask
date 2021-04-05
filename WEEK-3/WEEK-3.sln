@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. while", "2. while\2. whi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. while", "3. while\3. while.csproj", "{A58203E5-5C14-4F13-8659-82A32C0D4BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. while", "4. while\4. while.csproj", "{C25FFB87-F1CC-4E2E-887B-999CA0DAF38F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. while", "4. while\4. while.csproj", "{C25FFB87-F1CC-4E2E-887B-999CA0DAF38F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Mini login", "5. Mini login\5. Mini login.csproj", "{81C87BA1-B4AE-4CE5-9DAF-3A86A14A6DCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Mini login-if", "5. Mini login\5. Mini login-if.csproj", "{81C87BA1-B4AE-4CE5-9DAF-3A86A14A6DCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini login-ternery", "Mini login-ternery\Mini login-ternery.csproj", "{0E198743-C0FA-4D7C-9BB4-2D275EBF6DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini login-switch", "Mini login-switch\Mini login-switch.csproj", "{2927D2DB-CF9E-4358-AC5E-E8BC4097853B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{81C87BA1-B4AE-4CE5-9DAF-3A86A14A6DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81C87BA1-B4AE-4CE5-9DAF-3A86A14A6DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81C87BA1-B4AE-4CE5-9DAF-3A86A14A6DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E198743-C0FA-4D7C-9BB4-2D275EBF6DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E198743-C0FA-4D7C-9BB4-2D275EBF6DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E198743-C0FA-4D7C-9BB4-2D275EBF6DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E198743-C0FA-4D7C-9BB4-2D275EBF6DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2927D2DB-CF9E-4358-AC5E-E8BC4097853B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2927D2DB-CF9E-4358-AC5E-E8BC4097853B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2927D2DB-CF9E-4358-AC5E-E8BC4097853B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2927D2DB-CF9E-4358-AC5E-E8BC4097853B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

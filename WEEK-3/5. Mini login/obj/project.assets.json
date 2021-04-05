@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\WEEK-3\\5. Mini login\\5. Mini login.csproj",
-      "projectName": "5. Mini login",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\WEEK-3\\5. Mini login\\5. Mini login.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-3\\5. Mini login\\5. Mini login-if.csproj",
+      "projectName": "5. Mini login-if",
+      "projectPath": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-3\\5. Mini login\\5. Mini login-if.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\WEEK-3\\5. Mini login\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-3\\5. Mini login\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\bin\Debug\netcoreapp3.1\5. Mini login.exe
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\bin\Debug\netcoreapp3.1\5. Mini login.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\bin\Debug\netcoreapp3.1\5. Mini login.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\bin\Debug\netcoreapp3.1\5. Mini login.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\bin\Debug\netcoreapp3.1\5. Mini login.dll
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\bin\Debug\netcoreapp3.1\5. Mini login.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\obj\Debug\netcoreapp3.1\5. Mini login.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\obj\Debug\netcoreapp3.1\5. Mini login.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\obj\Debug\netcoreapp3.1\5. Mini login.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\obj\Debug\netcoreapp3.1\5. Mini login.dll
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\obj\Debug\netcoreapp3.1\5. Mini login.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\obj\Debug\netcoreapp3.1\5. Mini login.genruntimeconfig.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\5. Mini login\obj\Debug\netcoreapp3.1\5. Mini login.csprojAssemblyReference.cache
