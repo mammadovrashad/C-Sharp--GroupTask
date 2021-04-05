@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\bin\Debug\netcoreapp3.1\menfi-musbet-ternery.exe
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\bin\Debug\netcoreapp3.1\menfi-musbet-ternery.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\bin\Debug\netcoreapp3.1\menfi-musbet-ternery.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\bin\Debug\netcoreapp3.1\menfi-musbet-ternery.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\bin\Debug\netcoreapp3.1\menfi-musbet-ternery.dll
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\bin\Debug\netcoreapp3.1\menfi-musbet-ternery.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\obj\Debug\netcoreapp3.1\menfi-musbet-ternery.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\obj\Debug\netcoreapp3.1\menfi-musbet-ternery.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\obj\Debug\netcoreapp3.1\menfi-musbet-ternery.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\obj\Debug\netcoreapp3.1\menfi-musbet-ternery.dll
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\obj\Debug\netcoreapp3.1\menfi-musbet-ternery.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\obj\Debug\netcoreapp3.1\menfi-musbet-ternery.genruntimeconfig.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\menfi-musbet-ternery\obj\Debug\netcoreapp3.1\menfi-musbet-ternery.csprojAssemblyReference.cache

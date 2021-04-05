@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\bin\Debug\netcoreapp3.1\switch-calculator.exe
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\bin\Debug\netcoreapp3.1\switch-calculator.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\bin\Debug\netcoreapp3.1\switch-calculator.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\bin\Debug\netcoreapp3.1\switch-calculator.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\bin\Debug\netcoreapp3.1\switch-calculator.dll
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\bin\Debug\netcoreapp3.1\switch-calculator.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\obj\Debug\netcoreapp3.1\switch-calculator.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\obj\Debug\netcoreapp3.1\switch-calculator.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\obj\Debug\netcoreapp3.1\switch-calculator.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\obj\Debug\netcoreapp3.1\switch-calculator.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\obj\Debug\netcoreapp3.1\switch-calculator.dll
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\obj\Debug\netcoreapp3.1\switch-calculator.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-3\switch-calculator\obj\Debug\netcoreapp3.1\switch-calculator.genruntimeconfig.cache
