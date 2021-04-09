@@ -25,13 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini lgin-2", "Mini lgin-2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch-calculator", "switch-calculator\switch-calculator.csproj", "{99E6DC9B-66E1-459B-AD09-80689ACAE4BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menfi-musbet-if", "menfi-musbet-ternery\menfi-musbet-if.csproj", "{65DC6C4A-0526-442A-981A-6F130D830C4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "menfi-musbet-if", "menfi-musbet-ternery\menfi-musbet-if.csproj", "{65DC6C4A-0526-442A-981A-6F130D830C4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menfi musbet-ternery", "..\..\..\source\repos\menfi musbet-ternery\menfi musbet-ternery\menfi musbet-ternery.csproj", "{9AD1B14A-8C1C-4C87-AEFE-38D58545A9F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "menfi musbet-ternery", "..\..\..\source\repos\menfi musbet-ternery\menfi musbet-ternery\menfi musbet-ternery.csproj", "{9AD1B14A-8C1C-4C87-AEFE-38D58545A9F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vurma Cedveli", "Vurma Cedveli\Vurma Cedveli.csproj", "{15F7A070-313C-4285-9033-F5454C5E62E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vurma Cedveli", "Vurma Cedveli\Vurma Cedveli.csproj", "{15F7A070-313C-4285-9033-F5454C5E62E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exam", "exam\exam.csproj", "{511A154E-B9E6-404A-AC06-08ADA0E26AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exam", "exam\exam.csproj", "{511A154E-B9E6-404A-AC06-08ADA0E26AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

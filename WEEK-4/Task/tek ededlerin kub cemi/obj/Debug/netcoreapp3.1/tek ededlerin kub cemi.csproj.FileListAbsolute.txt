@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\obj\Debug\netcoreapp3.1\tek ededlerin kub cemi.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\obj\Debug\netcoreapp3.1\tek ededlerin kub cemi.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\obj\Debug\netcoreapp3.1\tek ededlerin kub cemi.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\bin\Debug\netcoreapp3.1\tek ededlerin kub cemi.exe
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\bin\Debug\netcoreapp3.1\tek ededlerin kub cemi.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\bin\Debug\netcoreapp3.1\tek ededlerin kub cemi.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\bin\Debug\netcoreapp3.1\tek ededlerin kub cemi.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\bin\Debug\netcoreapp3.1\tek ededlerin kub cemi.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\bin\Debug\netcoreapp3.1\tek ededlerin kub cemi.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\obj\Debug\netcoreapp3.1\tek ededlerin kub cemi.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\obj\Debug\netcoreapp3.1\tek ededlerin kub cemi.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tek ededlerin kub cemi\obj\Debug\netcoreapp3.1\tek ededlerin kub cemi.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\bin\Debug\netcoreapp3.1\tersine duzmek.exe
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\bin\Debug\netcoreapp3.1\tersine duzmek.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\bin\Debug\netcoreapp3.1\tersine duzmek.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\bin\Debug\netcoreapp3.1\tersine duzmek.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\bin\Debug\netcoreapp3.1\tersine duzmek.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\bin\Debug\netcoreapp3.1\tersine duzmek.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\obj\Debug\netcoreapp3.1\tersine duzmek.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\obj\Debug\netcoreapp3.1\tersine duzmek.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\obj\Debug\netcoreapp3.1\tersine duzmek.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\obj\Debug\netcoreapp3.1\tersine duzmek.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\obj\Debug\netcoreapp3.1\tersine duzmek.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\obj\Debug\netcoreapp3.1\tersine duzmek.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\ConsoleApp1\tersine duzmek\obj\Debug\netcoreapp3.1\tersine duzmek.genruntimeconfig.cache

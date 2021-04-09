@@ -27,10 +27,10 @@ namespace Mini_lgin_2
             string userAuthority = Console.ReadLine();
             switch (userAuthority)
             {
-                case "AA":
+                case "AA" :
                     Console.WriteLine("Admin selahiyyetlerine sahibsiniz.");
                 break;
-                case "BB":
+                case "BB" :
                     goto case "AA";
                 case "CC":
                     goto case "AA";
