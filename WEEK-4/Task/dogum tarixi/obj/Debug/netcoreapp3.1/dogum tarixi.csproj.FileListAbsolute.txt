@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\bin\Debug\netcoreapp3.1\dogum tarixi.exe
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\bin\Debug\netcoreapp3.1\dogum tarixi.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\bin\Debug\netcoreapp3.1\dogum tarixi.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\bin\Debug\netcoreapp3.1\dogum tarixi.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\bin\Debug\netcoreapp3.1\dogum tarixi.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\bin\Debug\netcoreapp3.1\dogum tarixi.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\obj\Debug\netcoreapp3.1\dogum tarixi.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\obj\Debug\netcoreapp3.1\dogum tarixi.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\obj\Debug\netcoreapp3.1\dogum tarixi.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\obj\Debug\netcoreapp3.1\dogum tarixi.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\obj\Debug\netcoreapp3.1\dogum tarixi.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\obj\Debug\netcoreapp3.1\dogum tarixi.genruntimeconfig.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\dogum tarixi\obj\Debug\netcoreapp3.1\dogum tarixi.csprojAssemblyReference.cache
