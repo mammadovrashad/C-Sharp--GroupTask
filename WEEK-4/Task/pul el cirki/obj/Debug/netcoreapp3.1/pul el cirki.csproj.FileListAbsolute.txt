@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\bin\Debug\netcoreapp3.1\pul el cirki.exe
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\bin\Debug\netcoreapp3.1\pul el cirki.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\bin\Debug\netcoreapp3.1\pul el cirki.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\bin\Debug\netcoreapp3.1\pul el cirki.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\bin\Debug\netcoreapp3.1\pul el cirki.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\bin\Debug\netcoreapp3.1\pul el cirki.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\obj\Debug\netcoreapp3.1\pul el cirki.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\obj\Debug\netcoreapp3.1\pul el cirki.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\obj\Debug\netcoreapp3.1\pul el cirki.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\obj\Debug\netcoreapp3.1\pul el cirki.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\obj\Debug\netcoreapp3.1\pul el cirki.dll
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\obj\Debug\netcoreapp3.1\pul el cirki.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-4\Task\pul el cirki\obj\Debug\netcoreapp3.1\pul el cirki.genruntimeconfig.cache

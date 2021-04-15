@@ -1,18 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace switch_calculator
+namespace calculator
 {
-    class Program
+    class Class1
     {
-        static void Main(string[] args)
+        public static void result(byte calculation,double number1,double number2)
         {
-            #region 6. calculator : switch
-            /*
-             * switch istifade ederek calculator yazin
-             *
-             * qeyd: hem normal switchden istifade edin hem de expressionla olan variantla
-             */
-            #endregion
             #region
             while (true)
             {
@@ -22,12 +17,7 @@ namespace switch_calculator
                 Console.WriteLine("3- Vurma:");
                 Console.WriteLine("4- Bolme:");
                 string warning = "duzgun emeliyyat nomresidaxil et";
-                Console.WriteLine("birinci ededi  daxil edin :");
-                double number1 = int.Parse(Console.ReadLine());
-                Console.WriteLine("ikinci  ededi  daxil edin :");
-                double number2 = int.Parse(Console.ReadLine());
-                Console.WriteLine("emeliyyat nomresini  daxil edin :");
-                byte calculation = byte.Parse(Console.ReadLine());
+                calculation = byte.Parse(Console.ReadLine());
                 var result = calculation switch
                 {
                     1 => Convert.ToString(number1 + number2),
@@ -38,7 +28,7 @@ namespace switch_calculator
                 };
                 Console.WriteLine(result);
             }
-
+            result(2,4,6);
 
             #endregion
         }
