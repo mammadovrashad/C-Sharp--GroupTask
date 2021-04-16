@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-5\\WEEK-5\\WEEK-5\\Diplom isi.csproj",
-      "projectName": "Diplom isi",
-      "projectPath": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-5\\WEEK-5\\WEEK-5\\Diplom isi.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-5\\WEEK-5\\Para el cirki-2\\Para el cirki-2.csproj",
+      "projectName": "Para el cirki-2",
+      "projectPath": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-5\\WEEK-5\\Para el cirki-2\\Para el cirki-2.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-5\\WEEK-5\\WEEK-5\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\Tasks\\WEEK-5\\WEEK-5\\Para el cirki-2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

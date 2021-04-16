@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace WEEK_5
 {
@@ -6,6 +7,7 @@ namespace WEEK_5
     {
        static void Main(string[] args)
         {
+
             #region 1. Havada bulut dimplom isini unut
             /*
              * Telebinin adini soyadini 3 imtahan neticesini
@@ -21,7 +23,11 @@ namespace WEEK_5
              */
 
             #endregion
+
+
             #region 
+            /*
+            Student student = new Student();
             while (true)
             {
                 {
@@ -29,7 +35,7 @@ namespace WEEK_5
                     string Name = Console.ReadLine();
                     Console.WriteLine("Soyadinizi daxil edin :");
                     string Surname = Console.ReadLine();
-                    var Netice = fullName(Name, Surname);
+                    var fullname = Student.FullName(Name, Surname);
 
                     #region
                     Console.WriteLine("Imtahan1 neticenizi daxil edin :");
@@ -48,17 +54,17 @@ namespace WEEK_5
                     else if (int.TryParse(Imtahan1, out deyer1) && (int.TryParse(Imtahan2, out deyer2)) && (int.TryParse(Imtahan3, out deyer3)))
                     {
 
-                        var ortalama = balOrtalamasi(deyer1, deyer2, deyer3);
+                        var ortalama = Student.Avarage(deyer1, deyer2, deyer3);
 
                         if ((deyer1 > 0 && deyer1 < 100) && (deyer2 > 0 && deyer2 < 100) && (deyer3 > 0 && deyer3 < 100))
                         {
                             if (ortalama >= 81)
                             {
-                                Console.WriteLine($"{Netice} sizin bal ortalamaniz {ortalama} dir  Diplom isine dusdunuz :");
+                                Console.WriteLine($"{fullname} sizin bal ortalamaniz {ortalama} dir  Diplom isine dusdunuz :");
                             }
                             else
                             {
-                                Console.WriteLine($"{Netice} sizin bal ortalamaniz {ortalama} dir  Diplom isine dusmediniz :");
+                                Console.WriteLine($"{fullname} sizin bal ortalamaniz {ortalama} dir  Diplom isine dusmediniz :");
                             }
                         }
                         else
@@ -75,19 +81,68 @@ namespace WEEK_5
                     }
                 }
             }
- 
+            */
+
             #endregion
+
+
+
+
+
+
+            #region 2. para pul el cerki 2 yakinda sinemalarda
+            /*
+             * Evvelceden teyin edilen pin vasitesile ATM-ye yaxinlasan vetendas pini daxil edir.
+             * Qarsinina cixan menu-dan balansina baxa, negd pul cixarda, ve ya umumi hesabdan cixaris
+             * isteye biler.Secilen her hansi bir emeliyyatdan sonra istifadeci yeniden menuya- geri done bilmelidir.
+             *
+             *
+             * login
+             *
+             * pin:
+             * pin sadece reqemlerden ibaret olmalidir // 1234
+             * pin sadece 4 reqemden ibaret olmalidir.
+             *
+             *
+             * Menu
+             *
+             * 1.Balans:
+             * (evvelceden standart olaraq balans 1000 azn olaraq nezerde tutulur.)
+             *
+             * 2.Negd pulun verilmesi:
+             *  Istifadeci ATM-den min 1 manat max 1000 manat ceke biler.Balans yoxlamasi olacaq,
+             *  daxil edilen mebleg hansi esginasdan nece eded olacaq o sekilde netice olaraq gosterilir.
+             *   
+             *
+             * 3.Balansdan cixaris:
+             *   Eger balansdan mexaric olubsa mexaric olunan meblegi ve hemin tarixi cap edin,
+             *   Yox eger hele balansdan mexaric olunmayibsa bu haqqda mesaj gosterin.
+             *
+             *
+             * Qeyd: consoledan daxil edilenler yalniz eded ola biler bular yoxlayanacaq ,
+             * mumkun derece methodlarla isleyin
+             *   
+             */
+            #endregion
+
+            #region
+            ArrayList vaxt = new ArrayList();
+            while (true) {
+                Console.WriteLine("Pin daxil edin :");
+            string pin = Console.ReadLine();
+                Console.WriteLine(Atm.Pin(pin));
+                Console.WriteLine("cixaris ucun reqmi daxil edin:");
+             int nomre = int.Parse(Console.ReadLine());
+                Atm.Switch(nomre);
+                
+            }
+
+            #endregion
+
+
         }
-        #region
-        public static string fullName(string Name, string Surname)
-        {
-            return $"{Surname} {Name} ";
-        }
-        public static int balOrtalamasi(int Imtahan1, int Imtahan2, int Imtahan3)
-        {
-            return (Imtahan1 + Imtahan2 + Imtahan3) / 3;
-        }
-        #endregion
+
+
 
     }
 }

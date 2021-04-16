@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\bin\Debug\netcoreapp3.1\Diplom isi.exe
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\bin\Debug\netcoreapp3.1\Diplom isi.deps.json
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\bin\Debug\netcoreapp3.1\Diplom isi.runtimeconfig.json
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\bin\Debug\netcoreapp3.1\Diplom isi.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\bin\Debug\netcoreapp3.1\Diplom isi.dll
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\bin\Debug\netcoreapp3.1\Diplom isi.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\obj\Debug\netcoreapp3.1\Diplom isi.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\obj\Debug\netcoreapp3.1\Diplom isi.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\obj\Debug\netcoreapp3.1\Diplom isi.AssemblyInfo.cs
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\obj\Debug\netcoreapp3.1\Diplom isi.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\obj\Debug\netcoreapp3.1\Diplom isi.dll
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\obj\Debug\netcoreapp3.1\Diplom isi.pdb
+C:\Users\hp\Desktop\Tasks\WEEK-5\WEEK-5\WEEK-5\obj\Debug\netcoreapp3.1\Diplom isi.genruntimeconfig.cache
