@@ -9,9 +9,12 @@ namespace Crud_emeliyyatlari
 {
     class Crud
     {
-        public static ArrayList database = new ArrayList();
-        
-        
-        
+        public static readonly ArrayList database;
+        static Crud()
+        {
+            database = new ArrayList();
+            
+        }
+       
     }
 }

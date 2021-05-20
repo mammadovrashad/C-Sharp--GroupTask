@@ -13,12 +13,13 @@ namespace Crud_emeliyyatlari
 
         public  void Add()
         {
-            Laptop laptop = new Laptop(){Name = "hp",Colour = "black",Price = 1200,Size = 120,Ram = 8,VidieoCard = "1080",Year = ("2020")};
-            Laptop laptop1 = new Laptop() {  Name = "Asus", Colour = "white", Price = 1500, Size = 120, Ram = 16, VidieoCard = "1080HD", Year =("2021") };
+            Laptop laptop = new Laptop(){ BarCode="123", Name = "hp",Colour = "black",Price = 1200,Size = 120,Ram = 8,VidieoCard = "1080",Year = ("2020")};
+            Laptop laptop1 = new Laptop() { BarCode = "456", Name = "Asus", Colour = "white", Price = 1500, Size = 120, Ram = 16, VidieoCard = "1080HD", Year =("2021") };
+            
             Crud.database.Add(laptop);
             Crud.database.Add(laptop1);
         }
-
+        
         public  void Delete()
         {
            
@@ -28,5 +29,11 @@ namespace Crud_emeliyyatlari
         {
             
         }
+        public void GetAll()
+        {
+
+        }
+
+       
     }
 }

@@ -50,7 +50,6 @@ namespace Crud_emeliyyatlari
             Tv tv = new Tv();
             tv.Add();
             laptop.Add();
-           
         }
     }
 }
