@@ -46,10 +46,31 @@ namespace Crud_emeliyyatlari
             *
             */
             #endregion
-            Laptop laptop = new Laptop();
-            Tv tv = new Tv();
-            tv.Add();
-            laptop.Add();
+            Laptop.Laptop laptop = new ()
+            {
+                Id = 1,
+                Name = "Hp",
+                BarCode = "233",
+                RAM = 8,
+                CreateDate = "2019",
+                Price = 1200,
+                CPU = "corpewt",
+                VideoCart = "1080"
+            };
+            Laptop.Laptop laptop1 = new()
+            {
+                Id = 2,
+                Name = "ASUS",
+                BarCode = "233",
+                RAM = 8,
+                CreateDate = "2020",
+                Price = 1400,
+                CPU = "corpewt",
+                VideoCart = "1080hd"
+            };
+            laptop.Add(laptop);
+            laptop.Add(laptop1);
+
         }
     }
 }
