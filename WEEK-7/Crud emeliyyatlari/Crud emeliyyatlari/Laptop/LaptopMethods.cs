@@ -33,6 +33,8 @@ namespace Crud_emeliyyatlari.Laptop
                 DataBase.Database._database.Add(AllLaptop);
                 
 
+
+
                 Console.WriteLine($"{Constats.Constants._add}");
                 }
             Console.WriteLine(product.BarCode);
