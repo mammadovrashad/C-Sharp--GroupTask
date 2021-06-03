@@ -31,6 +31,7 @@ namespace WinFormsAppTask2
         {
             this.booklistCombobox = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.deleteBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // booklistCombobox
@@ -40,7 +41,7 @@ namespace WinFormsAppTask2
             this.booklistCombobox.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.booklistCombobox.FormattingEnabled = true;
             this.booklistCombobox.ItemHeight = 23;
-            this.booklistCombobox.Location = new System.Drawing.Point(157, 85);
+            this.booklistCombobox.Location = new System.Drawing.Point(143, 88);
             this.booklistCombobox.Margin = new System.Windows.Forms.Padding(300, 3, 3, 3);
             this.booklistCombobox.Name = "booklistCombobox";
             this.booklistCombobox.Size = new System.Drawing.Size(167, 31);
@@ -53,7 +54,7 @@ namespace WinFormsAppTask2
             this.button1.BackColor = System.Drawing.Color.Blue;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(189, 134);
+            this.button1.Location = new System.Drawing.Point(265, 144);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 36);
             this.button1.TabIndex = 1;
@@ -61,12 +62,26 @@ namespace WinFormsAppTask2
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // deleteBtn
+            // 
+            this.deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.deleteBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.deleteBtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.deleteBtn.Location = new System.Drawing.Point(65, 144);
+            this.deleteBtn.Name = "deleteBtn";
+            this.deleteBtn.Size = new System.Drawing.Size(112, 35);
+            this.deleteBtn.TabIndex = 2;
+            this.deleteBtn.Text = "Delete";
+            this.deleteBtn.UseVisualStyleBackColor = false;
+            this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
+            // 
             // BookList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(465, 243);
+            this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.booklistCombobox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -82,5 +97,6 @@ namespace WinFormsAppTask2
 
         private System.Windows.Forms.ComboBox booklistCombobox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button deleteBtn;
     }
 }

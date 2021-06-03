@@ -147,6 +147,7 @@ namespace WinFormsAppTask2
             this.updateBtn.TabIndex = 11;
             this.updateBtn.Text = "Update";
             this.updateBtn.UseVisualStyleBackColor = false;
+            this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
             // addBtn
             // 

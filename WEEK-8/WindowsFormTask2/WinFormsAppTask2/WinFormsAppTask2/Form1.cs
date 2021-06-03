@@ -20,6 +20,8 @@ namespace WinFormsAppTask2
             categoryTxt.Text = data.Category;
             ctockcountTxt.Text =Convert.ToString( data.StockCount);
             description.Text = data.Description;
+            updateBtn.Tag = data.Id;
+           
 
         }
 
@@ -35,6 +37,27 @@ namespace WinFormsAppTask2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void updateBtn_Click(object sender, EventArgs e)
+        {
+            Button updateBtn = (Button)sender;
+            int bookId = (int)updateBtn.Tag;
+            Book booksUpdate = new Book()
+            {
+                Name = nameTxt.Text,
+                Author = authorTxt.Text,
+                Category = categoryTxt.Text,
+                StockCount = Convert.ToInt32(ctockcountTxt.Text),
+                Description = description.Text,
+                Id = bookId
+            };
+
+            BookDB.database[bookId] = booksUpdate;
+            BookList book = new BookList();
+            book.Show();
+            this.Hide();
 
         }
     }

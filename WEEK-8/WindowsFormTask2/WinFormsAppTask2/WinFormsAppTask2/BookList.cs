@@ -32,12 +32,28 @@ namespace WinFormsAppTask2
         private void button1_Click(object sender, EventArgs e)
         {
             var data = BookDB.database[booklistCombobox.SelectedIndex];
-            Form1 form = new Form1( data);
-            form.Show();
+             Form1 form = new Form1( data);
+             form.Show();
+             this.Hide();
             
             
             
 
+
+        }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+            int selecteIndex = booklistCombobox.SelectedIndex;
+
+            
+            DialogResult result= MessageBox.Show("Datani silmek istediyinize eminsinizmi ?", "Information", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (result is DialogResult.OK)
+            {
+                booklistCombobox.Items.RemoveAt(selecteIndex);
+                BookDB.database.RemoveAt(selecteIndex);
+            }
+            
 
         }
     }
