@@ -42,20 +42,31 @@ namespace WindowsFormTask
                     
                 }
 
-                MessageBox.Show(DBcount.ToString(), "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                nameTxt.Clear();
-                surnameTxt.Clear();
-                emailTxt.Clear();
-                numberTxt.Clear();
+                // MessageBox.Show(DBcount.ToString(), "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ClearData();
+                notifyIcon = new NotifyIcon()
+                {
+                    BalloonTipText = $"musteri sayi : {DBcount}",
+                    BalloonTipTitle = $"Information",
+                    Icon = SystemIcons.Information,
+                    Visible = true
+                };
+                notifyIcon.ShowBalloonTip(1500);
+                
 
             }
             else if (dialogResult == DialogResult.No)
             {
-                nameTxt.Clear();
-                surnameTxt.Clear();
-                emailTxt.Clear();
-                numberTxt.Clear();
+                ClearData();
             }
+        }
+
+        private void ClearData()
+        {
+            nameTxt.Clear();
+            surnameTxt.Clear();
+            emailTxt.Clear();
+            numberTxt.Clear();
         }
 
         private void Musteri_Load(object sender, EventArgs e)
@@ -63,6 +74,6 @@ namespace WindowsFormTask
 
         }
 
-      
+     
     }
 }

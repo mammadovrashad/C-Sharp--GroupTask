@@ -34,3 +34,5 @@ C:\Users\hp\Desktop\Tasks\WEEK-8\WindowsFormTask1\WindowsFormTask\obj\Debug\net5
 C:\Users\hp\Desktop\Tasks\WEEK-8\WindowsFormTask1\WindowsFormTask\obj\Debug\net5.0-windows\ref\WindowsFormTask.dll
 C:\Users\hp\Desktop\Tasks\WEEK-8\WindowsFormTask1\WindowsFormTask\obj\Debug\net5.0-windows\WindowsFormTask.pdb
 C:\Users\hp\Desktop\Tasks\WEEK-8\WindowsFormTask1\WindowsFormTask\obj\Debug\net5.0-windows\WindowsFormTask.genruntimeconfig.cache
+C:\Users\hp\Desktop\Tasks\WEEK-8\WindowsFormTask1\WindowsFormTask\bin\Debug\net5.0-windows\Tulpep.NotificationWindow.dll
+C:\Users\hp\Desktop\Tasks\WEEK-8\WindowsFormTask1\WindowsFormTask\obj\Debug\net5.0-windows\WindowsFormTask.csproj.CopyComplete

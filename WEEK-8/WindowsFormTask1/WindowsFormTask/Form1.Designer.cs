@@ -29,6 +29,7 @@ namespace WindowsFormTask
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.username = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.Label();
             this.surname = new System.Windows.Forms.Label();
@@ -39,6 +40,7 @@ namespace WindowsFormTask
             this.numberTxt = new System.Windows.Forms.TextBox();
             this.saveBtn = new System.Windows.Forms.Button();
             this.CustomerList = new System.Windows.Forms.ListBox();
+            this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // username
@@ -133,6 +135,10 @@ namespace WindowsFormTask
             this.CustomerList.Size = new System.Drawing.Size(391, 349);
             this.CustomerList.TabIndex = 9;
             // 
+            // notifyIcon
+            // 
+            this.notifyIcon.Visible = true;
+            // 
             // Musteri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
@@ -173,6 +179,7 @@ namespace WindowsFormTask
         private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.ListBox CustomerList;
         private System.Windows.Forms.TextBox numberTxt;
+        private System.Windows.Forms.NotifyIcon notifyIcon;
     }
 }
 

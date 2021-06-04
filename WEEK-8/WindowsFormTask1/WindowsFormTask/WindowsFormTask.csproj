@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Tulpep.NotificationWindow" Version="1.1.38" />
+  </ItemGroup>
+
 </Project>

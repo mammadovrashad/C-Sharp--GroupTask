@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Tulpep.NotificationWindow": {
+              "target": "Package",
+              "version": "[1.1.38, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

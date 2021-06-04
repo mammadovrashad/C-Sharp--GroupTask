@@ -31,7 +31,8 @@ namespace WinFormsAppTask2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var data = BookDB.database[booklistCombobox.SelectedIndex];
+            Book data = BookDB.database[booklistCombobox.SelectedIndex];
+             var a = booklistCombobox.SelectedIndex;
              Form1 form = new Form1( data);
              form.Show();
              this.Hide();
