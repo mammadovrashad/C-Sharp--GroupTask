@@ -55,7 +55,7 @@ namespace WinFormsAppTask2
             };
             
 
-            BookDB.database[bookId] = booksUpdate;
+            BookDB.database[bookId-1] = booksUpdate;
             BookList book = new BookList();
             book.Show();
             this.Hide();
