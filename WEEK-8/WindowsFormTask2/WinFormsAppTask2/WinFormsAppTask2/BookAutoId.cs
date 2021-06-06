@@ -15,7 +15,7 @@ namespace WinFormsAppTask2
             this.Category = _category;
             this.Description = _description;
             this.StockCount = _stockcount;
-            this.Id++;
+            
         }
         public Book()
         {

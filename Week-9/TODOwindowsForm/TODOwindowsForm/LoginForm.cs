@@ -19,7 +19,8 @@ namespace TODOwindowsForm
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-
+            ToDOApp todo = new ToDOApp();
+            todo.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
