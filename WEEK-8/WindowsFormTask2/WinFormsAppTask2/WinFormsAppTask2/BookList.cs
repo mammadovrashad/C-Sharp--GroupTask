@@ -33,6 +33,8 @@ namespace WinFormsAppTask2
         {
             Book data = BookDB.database[booklistCombobox.SelectedIndex];
              var a = booklistCombobox.SelectedIndex;
+            MessageBox.Show("bu ndfggfds", "xeta", MessageBoxButtons.YesNoCancel,MessageBoxIcon.Error);
+
              Form1 form = new Form1( data);
              form.Show();
              this.Hide();

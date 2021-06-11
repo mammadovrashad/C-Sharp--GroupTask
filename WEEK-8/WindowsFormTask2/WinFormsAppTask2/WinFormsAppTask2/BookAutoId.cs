@@ -10,6 +10,7 @@ namespace WinFormsAppTask2
     {
         public Book(string _name, string _author, string _category, int _stockcount, string _description)
         {
+            this.Id++;
             this.Name = _name;
             this.Author = _author;
             this.Category = _category;
@@ -17,9 +18,6 @@ namespace WinFormsAppTask2
             this.StockCount = _stockcount;
             
         }
-        public Book()
-        {
-               
-        }
+        
     }
 }

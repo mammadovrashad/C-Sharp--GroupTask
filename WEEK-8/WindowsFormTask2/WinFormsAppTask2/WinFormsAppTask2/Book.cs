@@ -8,7 +8,7 @@ namespace WinFormsAppTask2
 {
    public partial class Book
     {
-        public int Id { get; set; }
+        public int Id { get; set; } = 1;
         public string Name { get; set; }
         public string Author { get; set; }
         public string Category { get; set; }

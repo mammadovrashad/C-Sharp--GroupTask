@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsAppTask2
+namespace SystemIO
 {
     static class Program
     {
@@ -17,7 +17,7 @@ namespace WinFormsAppTask2
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BookList());
+            Application.Run(new Form1());
         }
     }
 }

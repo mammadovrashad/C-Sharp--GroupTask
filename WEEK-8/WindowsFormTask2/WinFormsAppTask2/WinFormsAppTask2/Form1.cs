@@ -44,18 +44,10 @@ namespace WinFormsAppTask2
         {
             Button updateBtn = (Button)sender;
             int bookId = (int)updateBtn.Tag;
-            Book booksUpdate = new Book()
-            {
-                Name = nameTxt.Text,
-                Author = authorTxt.Text,
-                Category = categoryTxt.Text,
-                StockCount = Convert.ToInt32(ctockcountTxt.Text),
-                Description = description.Text,
-                Id = bookId
-            };
+           
             
 
-            BookDB.database[bookId-1] = booksUpdate;
+            
             BookList book = new BookList();
             book.Show();
             this.Hide();
