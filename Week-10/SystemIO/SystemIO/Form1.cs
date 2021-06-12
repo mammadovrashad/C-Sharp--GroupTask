@@ -127,7 +127,27 @@ namespace SystemIO
 
         }
 
-        
+        /// <summary>
+        /// DataGridde movcud olan file da deyisiklik olunan zaman file-nin adinin save olunmasi
+        /// </summary>
+     
+        private void DataGrid_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            showFile.Text = DataGrid[0, DataGrid.CurrentRow.Index].Value.ToString();
+        }
+
+        private void saveBtn_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.Title = "Save All File";
+            
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                // saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*"  ;
+                string FileName = saveFileDialog1.FileName.ToString();
+                FileName = showFile.Text;
+                
+            }
+        }
     }
 }
  

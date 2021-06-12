@@ -29,7 +29,7 @@ namespace SystemIO
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.openBtn = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.DataGrid = new System.Windows.Forms.DataGridView();
@@ -44,9 +44,14 @@ namespace SystemIO
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.fileTypecombobox = new System.Windows.Forms.ComboBox();
+            this.showFile = new System.Windows.Forms.RichTextBox();
+            this.saveBtn = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.DataGrid)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // openBtn
@@ -74,12 +79,13 @@ namespace SystemIO
             this.DataGrid.ReadOnly = true;
             this.DataGrid.RowHeadersVisible = false;
             this.DataGrid.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.DataGrid.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.DataGrid.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.DataGrid.RowTemplate.Height = 29;
             this.DataGrid.Size = new System.Drawing.Size(252, 518);
             this.DataGrid.TabIndex = 1;
+            this.DataGrid.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.DataGrid_MouseDoubleClick);
             // 
             // Name
             // 
@@ -196,6 +202,36 @@ namespace SystemIO
             this.fileTypecombobox.TabIndex = 0;
             this.fileTypecombobox.Text = "  Choose Type";
             // 
+            // showFile
+            // 
+            this.showFile.Location = new System.Drawing.Point(32, 32);
+            this.showFile.Name = "showFile";
+            this.showFile.Size = new System.Drawing.Size(189, 30);
+            this.showFile.TabIndex = 12;
+            this.showFile.Text = "";
+            // 
+            // saveBtn
+            // 
+            this.saveBtn.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.saveBtn.ForeColor = System.Drawing.Color.White;
+            this.saveBtn.Location = new System.Drawing.Point(62, 78);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(145, 38);
+            this.saveBtn.TabIndex = 13;
+            this.saveBtn.Text = "Save";
+            this.saveBtn.UseVisualStyleBackColor = false;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel2.Controls.Add(this.showFile);
+            this.panel2.Controls.Add(this.saveBtn);
+            this.panel2.Location = new System.Drawing.Point(565, 344);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(250, 125);
+            this.panel2.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
@@ -205,6 +241,7 @@ namespace SystemIO
             this.BackgroundImage = global::SystemIO.Properties.Resources.smart_folder_icon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1020, 518);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.DataGrid);
@@ -213,7 +250,7 @@ namespace SystemIO
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-          
+           
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -221,6 +258,7 @@ namespace SystemIO
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -241,6 +279,10 @@ namespace SystemIO
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox fileTypecombobox;
+        private System.Windows.Forms.RichTextBox showFile;
+        private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
