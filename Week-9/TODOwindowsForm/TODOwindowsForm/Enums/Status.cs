@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TODOwindowsForm.Enums
+namespace TODOwindowsForm
 {
-    public enum Status
+   public enum Status
     {
-        Pending=1,//natamam   
-        Canceled=2,//Legv edildi
-        Suspended=3,//Dayandirildi
+    pending=1,
+    cancel=2,
+    suspend=3,
     }
 }

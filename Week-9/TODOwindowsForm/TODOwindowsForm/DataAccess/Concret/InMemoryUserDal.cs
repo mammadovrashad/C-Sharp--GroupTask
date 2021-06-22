@@ -3,39 +3,64 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TODOwindowsForm.Entities.Concret;
 
-namespace TODOwindowsForm.DataAccess.Concret
+namespace TODOwindowsForm
 {
-    public class InMemoryUserDal : Abstract.IUserDal
+    public class InMemoryUserDAL : IUserDAL
     {
-
-
-        #region filds
-        private static readonly List<UserEntity> userEntities;
+        #region Filds
+        private static readonly List<UserEntity> userEntitiesList;
         #endregion
 
-        #region ctor
-        static InMemoryUserDal()
+        #region Ctor
+
+        static InMemoryUserDAL()
         {
-            userEntities = new List<UserEntity>()
+            userEntitiesList = new List<UserEntity>()
             {
-                new UserEntity{Id=Guid.NewGuid(),Username="User1",Password="12345"}
+                new UserEntity
+                {
+                    Id=Guid.NewGuid(),
+                    Username="Rashad",
+                    Password="1234"
+                }
             };
         }
         #endregion
         public void Add(UserEntity data)
         {
-            userEntities.Add(data);
+            userEntitiesList.Add(data);
         }
 
         public List<UserEntity> GetAll()
         {
-            return userEntities;
+            return userEntitiesList;
         }
-    } 
-    public class InMemoryTodoDal : Abstract.TodoDal
-    {
     }
+    public class InMemoryTodoDAL : ITodoDAL
+    {
+        #region Filds
+        private static readonly List<TodoEntity> TodoEntitiesList;
+        #endregion
 
+        #region Ctor
+
+        static InMemoryTodoDAL()
+        {
+            TodoEntitiesList = new List<TodoEntity>();
+           
+        }
+
+        public int Add(TodoEntity data)
+        {
+           TodoEntitiesList.Add(data);
+            return 1;
+        }
+        #endregion
+        public int Count()
+        {
+            
+            return TodoEntitiesList.Count;
+        }
+    }
 }

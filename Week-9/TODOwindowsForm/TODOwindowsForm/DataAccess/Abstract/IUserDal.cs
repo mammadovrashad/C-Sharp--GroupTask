@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TODOwindowsForm.DataAccess.Abstract
+namespace TODOwindowsForm
 {
-   public interface IUserDal
+    public interface IUserDAL
     {
-
-        List<Entities.Concret.UserEntity> GetAll();
-        void Add(Entities.Concret.UserEntity data);
+        List<UserEntity> GetAll();
+        void Add(UserEntity data);
     }
-
-    public interface TodoDal
+    public interface ITodoDAL
     {
+        int Count();
+        int Add(TodoEntity data);
     }
 }

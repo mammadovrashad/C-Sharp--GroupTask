@@ -20,6 +20,8 @@ namespace TODOwindowsForm
         private void LoginForm_Load(object sender, EventArgs e)
         {
             ToDOApp todo = new ToDOApp();
+           
+            todo.StartPosition = FormStartPosition.CenterParent;
             todo.Show();
         }
 
