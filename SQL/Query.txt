@@ -1,0 +1,97 @@
+/* Task-1
+-- HumanResource.Employee
+-- NationalIDNumber sutunu icerisinde 96 olan
+-- JobTitle deyeri ReSearch ile baslayan
+-- Gender M olan 
+-- iscilerin getirilmesi.
+
+-- Sales.SalesOrderDetail 
+-- ProductID deyeri 100-den boyuk 1000-den kicik
+-- CarrierTrackingNumber son iki deyeri 'AE'
+-- sifaris detallarinin getirilmesi.
+*/
+USE AdventureWorks2016
+
+SELECT * FROM HumanResources.Employee 
+WHERE NationalIDNumber like '%96%' and JobTitle like 'ReSearch%' and Gender='M'
+
+
+
+SELECT * FROM Sales.SalesOrderDetail
+WHERE ProductID BETWEEN 100 and 1000 and CarrierTrackingNumber like '%AE'
+
+/* Task-2
+Production.Product,
+Production.ProductSubcategory,
+Production.ProductCategory    
+
+cedvellerinden istifade ederek  asagidaki kimi resultin getirilmesi ucun query yazin
+-- ProductId
+-- Name
+-- CategoryName
+-- SubCategoryName
+-- ListPrice  
+*/
+
+SELECT pp.ProductID,[pp].[Name],pp.ListPrice, [pps].[Name] 
+FROM Production.Product as pp inner join Production.ProductSubcategory as pps ON pp.ProductSubcategoryID=pps.ProductSubcategoryID 
+inner join Production.ProductCategory as ppc ON pps.ProductCategoryID=ppc.ProductCategoryID
+
+/* Task-3
+Production.Product,Production.ProductModel cedvellerinden istifade ederek
+asagidaki kimi resultin getirilmesi ucun query yazin
+
+Name,ModelName, Size,Color
+
+Size null ola bilmez.
+*/
+SELECT [pp].[Name],pp.Size,pp.Color,[ppm].[Name] 
+FROM Production.Product as pp right join Production.ProductModel as ppm ON pp.ProductModelID=ppm.ProductModelID
+Where pp.Size is not null
+
+/* Task-4
+Production.Product
+Production.ProductSubcategory
+Production.ProductCategory
+
+cedvellerinden istifade ederek asagidaki kimi resultin getirilmesi ucun query yazin
+
+Id,Name,CategoryName,SubCategoryName
+
+680	HL Road Frame - Black, 58	Components	Road Frames
+706	HL Road Frame - Red, 58	Components	Road Frames
+707	Sport-100 Helmet, Red	Accessories	Helmets
+708	Sport-100 Helmet, Black	Accessories	Helmets
+709	Mountain Bike Socks, M	Clothing	Socks
+710	Mountain Bike Socks, L	Clothing	Socks
+711	Sport-100 Helmet, Blue	Accessories	Helmets
+*/
+
+SELECT pp.ProductID,[pp].[Name] as ProductName,[ppc].[Name] as CatecoryName ,[pps].[Name] as SubCategoryName
+FROM Production.Product as pp 
+inner join Production.ProductSubcategory as pps ON pp.ProductSubcategoryID=pps.ProductSubcategoryID 
+inner join Production.ProductCategory as ppc ON pps.ProductCategoryID=ppc.ProductCategoryID
+
+/* Task-5
+Production.Product
+cedvellerinden istifade ederek asagidaki kimi resultin getirilmesi ucun query yazin
+
+Size, Color, SafetyStockLevel sayi
+
+Size ve Color null ola bilmez.
+
+XL	Black	4
+XL	Multi	4
+XL	Yellow	4
+S	Black	20
+S	Blue	4
+S	Multi	8
+S	Yellow	4
+M	Black	20
+
+*/
+
+SELECT Size,Color,SUM(SafetyStockLevel) as SafetyStockLevel
+FROM Production.Product 
+Where Size is not null and Color is not null 
+group by Color,Size order by Size desc
