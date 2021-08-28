@@ -95,3 +95,47 @@ SELECT Size,Color,SUM(SafetyStockLevel) as SafetyStockLevel
 FROM Production.Product 
 Where Size is not null and Color is not null 
 group by Color,Size order by Size desc
+
+/* Task-6
+Production.Product , Sales.SalesOrderDetail 
+cedvellerinden istifade ederek Color-a ve Size gore qruplasdirilmis Size (tersden) gore siralanmis query yazin. 
+
+Color	Size ProductCount	Unitprice
+Multi	XL	 770416	        39989,5456
+Yellow	XL	 799136	        37925,8154
+Black	S	 2020174	        83236,7571
+Blue	S	 589248	        29917,39
+Multi	S	 503382	        33921,9236
+Yellow	S	 631677	        31970,7184
+White	M	 651574	        5332,1466
+*/
+
+
+SELECT pp.Color,pp.Size as ProductCount
+FROM Production.Product as pp 
+INNER JOIN Sales.SalesOrderDetail as ssop ON pp.ProductID=ssop.ProductID 
+Where pp.Size is not null 
+GROUP BY pp.Size,pp.Color
+ORDER BY Size  desc 
+
+/* Task-7
+  Person.Person
+  Person.PersonPhone
+  Person.PhoneNumberType
+  cedvellerinden istifade ederek asagidaki kimi resultin getirilmesi ucun query yazin
+  BusinessEntityID	    Fullname	    Type	   Number
+  285	                Syed Abbas	    Work	926-555-0182
+  293	                Catherine Abel	Cell	747-555-0171
+  295	                Kim Abercrombie	Work	334-555-0137
+  2170	                Kim Abercrombie	Work	919-555-0100
+  38	                Kim Abercrombie	Cell	208-555-0114
+  211	                Hazem Abolrous	Work	869-555-0125
+  2357	                Sam Abolrous	Work	567-555-0100
+  */
+
+ SELECT * FROM Person.Person
+ SELECT * FROM Person.PersonPhone
+ SELECT * FROM Person.PhoneNumberType
+ SELECT pp.BusinessEntityID, pp.FirstName+pp.LastName as FullName,[number].[Name] as [Type] , phone.PhoneNumber FROM Person.Person as pp
+ INNER JOIN Person.PersonPhone as phone ON pp.BusinessEntityID=phone.BusinessEntityID
+ INNER JOIN Person.PhoneNumberType as number ON phone.PhoneNumberTypeID=number.PhoneNumberTypeID
