@@ -1,4 +1,6 @@
-1. --   Sales.SalesOrderHeader, Sales.SalesOrderDetail cedvellerinden istifade ederek 
+1.
+/*
+ --   Sales.SalesOrderHeader, Sales.SalesOrderDetail cedvellerinden istifade ederek 
    --   '2011-05-31 00:00:00.000' tarixinde satis eden satis temsilcilerinin ad soyadini ve toplam lineTotal deyeri
    --   getiren query yazin.
 
@@ -14,7 +16,7 @@ PamelaAnsman-Wolfe	    24432.608800
 ShuIto	                59708.320800
 TsviReiter	            104419.329100
 
-
+*/
 
 
 SELECT (FirstName+ LastName) as SalesPerson ,Sum(LineTotal)  FROM
@@ -26,3 +28,49 @@ ON H.SalesOrderID=D.SalesOrderID
 WHERE H.OrderDate='2011-05-31 00:00:00.000'  Group by FirstName,LastName Order By FirstName
 
 
+
+2.
+ /*
+ Store procudure examples 
+
+ 2.a Person Cedveli yaradin (Id,Name,Surname,Status,Gender,CreateDate) 
+
+ 2.b Person cedveline AdventureWorks db-dan data insert eden proc yaradilmalidir.
+
+ 2.c PersonCedveli ucun asagidakilara uygun proc-lar yaradilmalidir.
+ Add (insert edilen row-un idsi output olaraq GetById proc-a oturulmelidir)
+ Update (update edilen row-un idsi output olaraq GetById proc-a oturulmelidir)
+ Delete
+
+ GetById (parametr olaraq id deyeri daxil edilecek)
+ GetAll (parametr almayacaq)
+ GetAll (Gender deyeri qebul ederse daxil edilen deyere esasen filter olacaq, daxil edilmezse 'M' ve ya 'F' olanlar getirilecek )
+ GetByEmail (parametr olaraq email deyeri daxil edilecek)
+ */
+
+
+Create Database Week13Task
+Use Week13Task
+Go
+Create Table Person
+(
+Id int Primary Key Identity,
+[Name] nvarchar(30) not null,
+Surname nvarchar(30) not null,
+[Status] bit default 0,
+Gender char(1) not null
+)
+
+Insert Into Person (
+[Name],
+Surname,
+Gender)
+Select P.FirstName,P.LastName,E.Gender From AdventureWorks2016.Person.Person
+as P inner join AdventureWorks2016.HumanResources.Employee as E 
+ON P.BusinessEntityID=E.BusinessEntityID
+
+Update Person 
+set Name='Rashad',Surname='Mammadov',[Status]=1,Gender='M' Where Id=1
+Delete Person Where Id=2
+Select * From Person
+Select * From Person Where Gender='M'
