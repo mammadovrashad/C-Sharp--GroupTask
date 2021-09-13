@@ -74,3 +74,94 @@ set Name='Rashad',Surname='Mammadov',[Status]=1,Gender='M' Where Id=1
 Delete Person Where Id=2
 Select * From Person
 Select * From Person Where Gender='M'
+
+
+ /*
+ 2.
+ Store procudure examples 
+
+ 2.a Person Cedveli yaradin (Id,Name,Surname,Status,Gender,CreateDate) 
+
+ 2.b Person cedveline AdventureWorks db-dan data insert eden proc yaradilmalidir.
+
+ 2.c PersonCedveli ucun asagidakilara uygun proc-lar yaradilmalidir.
+ Add (insert edilen row-un idsi output olaraq GetById proc-a oturulmelidir)
+ Update (update edilen row-un idsi output olaraq GetById proc-a oturulmelidir)
+ Delete
+
+ GetById (parametr olaraq id deyeri daxil edilecek)
+ GetAll (parametr almayacaq)
+ GetAll (Gender deyeri qebul ederse daxil edilen deyere esasen filter olacaq, daxil edilmezse 'M' ve ya 'F' olanlar getirilecek )
+ GetByEmail (parametr olaraq email deyeri daxil edilecek)
+ */
+
+ --2.a Person Cedveli yaradin (Id,Name,Surname,Status,Gender,CreateDate) 
+
+ Create Table Person(
+ Id int Primary Key Identity,
+ [Name] nvarchar(30) not null,
+ Surname nvarchar(30) not null,
+ [Status] bit default 0,
+ Gender char(1) not null,
+ CreateDate datetime default Getdate()
+ )
+
+ -- 2.b Person cedveline AdventureWorks db-dan data insert eden proc yaradilmalidir.
+Create proc AddData 
+as
+begin
+Insert Into Person ([Name],Surname,Gender)
+Select FirstName,LastName,Gender From AdventureWorks2016.Person.Person as p 
+inner join AdventureWorks2016.HumanResources.Employee as e on p.BusinessEntityID=e.BusinessEntityID
+end
+
+exec AddData
+/*
+2.c PersonCedveli ucun asagidakilara uygun proc-lar yaradilmalidir.
+ Add (insert edilen row-un idsi output olaraq GetById proc-a oturulmelidir)
+ Update (update edilen row-un idsi output olaraq GetById proc-a oturulmelidir)
+ Delete
+ */
+
+ Create proc [Add] (@name nvarchar(30),@surname nvarchar(30),@status bit,@gender char(1))
+ as
+ begin
+ Insert Into Person ([Name],Surname,[Status],Gender) values (@name,@surname,@status,@gender)
+ end
+
+ exec [Add] @name='Rashad',@surname='Mammadov',@status=1,@gender='M'
+
+
+
+ Create proc [Update] (
+ @id int,
+ @name nvarchar(50))
+ with encryption
+ as
+ begin
+ Update Person set [Name]=@name Where Id=@id
+ end
+
+ exec [Update] @name='Bilal' ,@id=1
+
+
+
+
+
+ Create proc GetById(@id int)
+ as
+ begin
+ Select * From Person Where Id=@id
+ end
+ 
+ exec GetById @id=20
+ Create proc [Delete] (
+ @id int)
+ with encryption
+ as
+ begin
+ exec GetById @id=@id
+ Delete Person Where Id=@id
+ end
+
+  exec [Delete] @id=15
