@@ -237,3 +237,87 @@ exec GetAllDocument @create_by_id=2
 --WaitingDocument Proc yaradilmalidir Senedin hazirki levelinde mesul user kimdirse sadece ona uygun senedler getirilir.
 
 
+
+
+-- Documentin levelinə uygubn userİd -nin gətirilməsi
+Create function GetUserId( @document_level_name nvarchar(30))
+returns tinyint
+as
+begin
+declare @user_id tinyint
+if Exists  (Select @user_id UserId From DocumentLevel Where Name=@document_level_name)
+begin
+Select @user_id = UserId From DocumentLevel Where Name=@document_level_name
+end
+else
+begin
+set @user_id=0
+end
+return @user_id
+end
+
+-- Userin Id-sinə uygun levelde olan senedlerin getirilmesi ucun Store Prosedurun yazilmasi
+Create proc GetDopcumentByİd(@user_id tinyint)
+as
+begin
+Select d.Title From Document as d inner join DocumentLevel as l on d.DocumentLevelId=l.Id where UserId=@user_id
+end
+
+
+-- prosedure uygun fuctionun cagrilmasi
+declare @userid tinyint;
+Select @userid= dbo.GetUserId('first level')
+exec GetDopcumentByİd @user_id=@userid
+
+
+
+
+--1.b Doc levellerin insert edilmesi
+--  - doclevelelleri getiren view yaradilmalidir.
+--  - doclevelId
+--  - Name
+--  - UserId
+--  - Username
+
+Create view GetDocLevel
+as
+SELECT * From DocumentLevel
+
+Select Id,[Name],UserId,[Order]  From GetDocLevel
+
+
+--1.b.a Doc level ucun mesul userin update edilmesi 
+--    verilen username esasen dbdan user tapilir ve yeni responseUseridye assign edilir.
+
+
+--Documentin leveline uygun UserId -nin getirilmesi ucun function-nin yazilmasi
+Create function GetByUserId(@doc_level_name nvarchar(50))
+returns tinyint
+as
+begin
+declare @user_id tinyint
+if Exists (Select @user_id UserId From DocumentLevel where [Name]=@doc_level_name)
+begin
+Select @user_id=UserId From DocumentLevel
+end
+else
+begin
+set @user_id=0
+end
+return @user_id 
+end
+
+
+--tapilan userid-ye uyugun movcud Userin update olunmasi ucun prosedur yazilmasi
+Create proc UpdateUser ( @username nvarchar(30),@password nvarchar(40),@firstname nvarchar(40),@lastname nvarchar(40),@user_id tinyint)
+as
+begin
+Update Users set Username=@username,Password=@password,RegistrationDate= GetDate(),FirstName=@firstname,LastName=@lastname Where Id=@user_id
+end
+
+
+declare @userid tinyint 
+Select @userid=dbo.GetUserId('first level')
+exec UpdateUser @username='james_gosling',  @password='james12345+',@firstname='James',@lastname='Gosling' ,@user_id=@userid
+
+Select * From Users
