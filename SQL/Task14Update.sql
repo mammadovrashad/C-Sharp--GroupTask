@@ -321,3 +321,62 @@ Select @userid=dbo.GetUserId('first level')
 exec UpdateUser @username='james_gosling',  @password='james12345+',@firstname='James',@lastname='Gosling' ,@user_id=@userid
 
 Select * From Users
+
+--1.c Document Get By Id proc
+--1.d Document Comment Create proc 
+--1.e GetAllDocumentCommentByDocId proc 
+--    Username
+--    Comment
+--    Date
+
+
+--1.d Document Comment Create proc 
+
+Create proc DocumentCommentInsert(@comment nvarchar(150),@createbyid tinyint,@documentid tinyint)
+as
+begin
+Insert Into DocumentComment(Comment,CreateById,DocumentId) VALUES(@comment,@createbyid,@documentid)
+end
+
+exec DocumentCommentInsert @comment='this is  suitable',@createbyid=1,@documentid=4
+
+
+--1.c Document Get By Id proc
+
+Alter function Doc_GetById(@doc_title nvarchar(40))
+returns tinyint 
+as
+begin
+declare @doc_id tinyint
+if Exists (Select @doc_id Id From Document where Title=@doc_title)
+begin
+Select @doc_id=Id From Document where Title=@doc_title
+end
+else
+begin
+set @doc_id=0
+end
+return @doc_id
+end
+
+Select dbo.Doc_GetById('c#')
+
+
+
+--1.e GetAllDocumentCommentByDocId proc 
+--    Username
+--    Comment
+--    Date
+
+--- Documentin Adine uygun Id-sini elde edib Movcud documente kim terefinden hansi commentin ve ne vaxt yazildigini getiren Store prosedur yaradilmasi
+Create proc GetAllDocumentCommentByDocId(@doc_id tinyint)
+as
+begin
+Select Username,Comment,CommetDate From Users as u inner join DocumentComment as dc On u.Id=dc.CreateById Where DocumentId=@doc_id
+end
+declare @docId tinyint 
+Select @docId=dbo.Doc_GetById('Opera')
+
+
+exec GetAllDocumentCommentByDocId @doc_id=@docId
+
